@@ -1,0 +1,154 @@
+
+
+body {margin: auto}
+:root {font-size: 50%;
+}
+
+.header-inicio {display: flex;
+text-align: center;
+background-color: #212223;
+position: sticky;
+margin: auto;
+max-width: 1440px ;
+}
+
+.expandir-inicio {background-color: #212223;
+
+justify-content: center;
+margin: auto;
+}
+
+.Logo {margin-left: 10rem;
+padding: 2rem;}
+
+.nav-inicio { display: flex;
+font-size: 2rem;
+text-align: center;
+justify-content: center;
+list-style-type: none;
+
+margin-left: 80rem;
+margin-top: 5rem;
+}
+
+.li-inicio {padding: 1rem;
+color: rgb(255, 207, 50);
+border: 0.1rem solid rgb(255, 207, 50) ;
+margin-right: 1rem;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.a-inicio {text-decoration: none;
+color: rgb(255, 207, 50);}
+
+/*--------------------------------------------------------------------------------------------*/
+.aside-slogan {display: flex; 
+flex-direction: row;
+background-image: linear-gradient(white, yellow); 
+justify-content: center;
+margin: auto;}
+
+.slogan {display: flex; 
+flex-direction: column;
+justify-content: center;
+max-width: 40rem;
+margin-right: 10rem;
+flex-wrap: wrap;}
+
+.h2-slogan {flex-wrap: wrap;
+font-size: 6rem;
+line-height: 5rem;}
+
+
+
+.a-slogan {text-decoration: none;
+color: black;
+font-size: 3rem;
+background-color: yellow;
+padding:1rem 4rem ;
+border-radius: 1rem;
+margin-top: 3rem;}
+
+.img-slogan {width: 70rem;}
+
+/*--------------------------------------------------------------------*/
+.h2-card {font-size: 5rem;
+text-align: center;
+margin-top: 10rem;}
+
+.card {display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+margin-top: 10rem;
+width: 20%;
+margin: auto;
+}
+
+.cada-card {display: flex;
+flex-direction: column ;
+border: 1px solid rgba(0, 0, 0, 0.288);
+margin-right: 4rem;
+border-radius: 1rem;
+height: 60rem;
+color: #212223;
+width: 50rem;}
+
+.img-card {margin: 0;
+padding: 0;
+height: 35rem;}
+
+.h3-card { font-size: 3rem;
+margin-left: 2rem;}
+
+.p-card {font-size: 2rem;
+    margin-left: 2rem;}
+
+.a-card {text-decoration: none;
+color: black;
+font-size: 3rem;
+background-color: yellow;
+padding:1rem 4rem ;
+border-radius: 1rem;
+width: 20rem;
+}
+
+.pa-card{text-align: center;
+    margin-top: 10rem;
+margin-bottom: 10rem;}
+
+/*------------------------------------------------------------------------------*/
+
+.article-exp {margin-top: 15rem;
+margin: auto;
+background-color: rgb(4, 4, 90);
+padding: 10rem;
+padding-bottom: 0;
+display: flex;
+justify-content: center;}
+
+.h2-exp{color:white;
+font-size: 5rem;}
+
+.p-exp {color: white;
+font-size: 2rem;
+max-width: 80rem;}
+
+.explicação {margin-left: 3rem;}
+
+/*------------------------------------------------------------------------------*/
+
+.h2-final {font-size: 5rem;
+    text-align: center;
+    margin-top: 10rem;}
+
+.iframe-mapa {width: 100%;
+    margin: auto;
+}
+
+footer {background-color: #212223;
+padding: 5rem;
+margin-top: 5rem;
+color: white;
+font-size: 2rem;
+text-align: center;}
